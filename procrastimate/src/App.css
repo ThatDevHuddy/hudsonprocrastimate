@@ -1,0 +1,26 @@
+ 
+.createTask {
+  position: fixed;
+  bottom: 0px;
+}
+
+nav {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+button {
+
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}

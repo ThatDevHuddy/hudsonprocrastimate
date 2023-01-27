@@ -1,0 +1,64 @@
+
+
+.catContainer {
+    padding: 1%;
+    width: 90%;
+    margin-bottom: 10%;
+}
+.categories{
+    display:grid;
+    grid-template-columns: repeat(3, 32%);
+    justify-items: center;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .categories {
+    display:grid;
+    grid-template-columns: repeat(1, 96%);
+    justify-items: center;
+  }
+}
+
+.newTaskStuff {
+
+    padding-left:3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.addTaskButton{
+    aspect-ratio: 1 / 1;
+
+    flex:1
+}
+.inputs{
+    flex:3;
+   padding-right: 2%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dateinput{
+    width: 49%;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family:'Roboto';
+    color: grey;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.dateinput:hover{
+    border-bottom: 2px solid black;
+}
+.someButtons {
+    margin: 5px;
+    height: 30px;
+    width: 150px;
+
+}

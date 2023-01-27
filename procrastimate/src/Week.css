@@ -1,0 +1,19 @@
+.bigContain {
+    display: flex;
+    flex-direction: row;
+    padding-top:2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contain {
+    width: 14vw;
+
+    overflow: hidden;
+}
+.taskContainer{
+    padding-left: 5%;
+    padding-top: 2vw;
+    display: grid;
+    width: 100%;
+}

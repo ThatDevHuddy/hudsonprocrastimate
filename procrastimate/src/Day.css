@@ -1,0 +1,23 @@
+
+
+.group{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 4%;
+    padding-bottom:2%;
+}
+.checkbox{
+    cursor:pointer;
+}
+.checkbox:hover{
+    opacity:0.5;
+}
+.label{
+    cursor: pointer;
+}
+.label:hover{
+    text-decoration: line-through;
+}
+.slider{
+    width: 500;
+}
